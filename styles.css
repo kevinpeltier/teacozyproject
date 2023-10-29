@@ -1,0 +1,205 @@
+/* -------------------------------Gerneral-------------------------------  */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    color: seashell;
+    opacity: .9;
+}
+
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+/* -------------------------------Gerneral-Body-------------------------------  */
+
+
+body {
+    background-color: #000;
+}
+
+
+/* -------------------------------Navigation-------------------------------  */
+
+nav {
+    height: 4.3125rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    font-size: 1.375rem;
+    position: fixed;
+    background-color: #000;
+    z-index: 1;
+}
+
+.logo img {
+    height: 3.125rem;
+    padding: .625rem;
+    opacity: .8;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+} 
+
+ul li a {
+    text-decoration: underline;
+}
+
+ul li a:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+/* -------------------------------Header-------------------------------  */
+
+header {
+    max-width: 75rem;
+    height: 43.75rem;
+    background-image: url(./imgs/img-mission-background.jpg);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    opacity: .7;
+    position: relative;
+    top: 70px;
+}
+
+.mission-banner {
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    opacity: 1 ;
+}
+
+.mission-banner h2 {
+    padding: 1rem 0 0 0;
+}
+
+.mission-banner h4 {
+    padding: 1rem;
+}
+
+
+
+/* --------------------------Tea of the Month--------------------------  */
+
+.tea-of-the-month {
+    padding: 7rem 0;
+    width: 62.5rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.tea-month-heading {
+    width: 100%;
+    text-align: center;
+}
+
+.tea-month-heading h2 {
+    padding: 1rem 0;
+}
+
+.display-card {
+    width: 18.75rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.display-card img {
+    width: 100%;
+    height: 12.5rem;
+}
+
+.display-card h2 {
+    padding: .625rem;
+}
+
+
+/* --------------------------Locations--------------------------  */
+
+.location-section {
+    width: 75rem;
+    height: 31.25rem;
+    background-image: url(./imgs/img-locations-background.jpg);
+    background-position: right 0 top 0;
+    opacity: .9;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.location-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 2.5rem;
+}
+
+.location-content h1 {
+    width: 100%;
+    padding: 0 0 .9375rem 0;
+
+}
+
+.location-card {
+    width: 18.75rem;
+    min-height: 5rem;
+    background: #000;
+    padding: 1rem;
+}
+
+.location-card p {
+    padding: 1.5rem;
+    font-size: 1.375rem;
+}
+
+
+
+
+/* -----------------------Tea cozy Information-----------------------  */
+
+.contact-info {
+    height: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* --------------------------Footer--------------------------  */
+
+footer {
+    padding: 0 0 1.25rem 1.25rem;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: 1.375rem;
+}
+
